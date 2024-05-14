@@ -1,0 +1,8 @@
+.Socialpage{
+  display: grid;
+  grid-template-columns: 20vw auto 25vw;
+  column-gap: 2rem;
+  position: relative;
+  background-color: var(--color-light) !important;
+}
+

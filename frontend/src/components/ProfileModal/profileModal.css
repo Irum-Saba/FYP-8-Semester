@@ -1,0 +1,26 @@
+.formHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .formHeader div {
+    cursor: pointer;
+  }
+  .editForm{
+    margin-top: 1rem;
+    width: 90%;
+    background-color: var(--color-white);
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  .editForm input{
+  width: calc(100% - 20px); /* Adjust as needed */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 20px; /* Round border */
+  outline: none;
+  }
+  .editForm div{
+    margin-bottom: 1rem;
+  }

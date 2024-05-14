@@ -1,0 +1,90 @@
+.navIcons{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-between;
+    width: 90%;
+}
+.navIcons>img{
+    height: 2rem;
+    width: 2rem;
+}
+.FollowersCard{
+    width: 90%;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    border-radius: 0.7rem;
+    position: relative;
+    overflow-x: clip;
+    background-color: #ffffff;
+    margin-top: 4rem;
+    
+}
+.follower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.follower>div{
+    display: flex;
+    gap: 10px;
+}
+.followerImage{
+    margin-left: 1rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.name>span:nth-of-type(1){
+    font-weight: bold;
+}
+.fc-button{
+    height: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 1rem;
+}
+.FollowersCard h3{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+
+}
+.FollowersCard .messages .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.FollowersCard .messages i{
+    font-size: 1.5rem;
+}
+.FollowersCard .messages .search-bar{
+    display: flex;
+    margin-bottom:1rem;
+   
+
+}
+.search-bar{
+    display: flex;
+   align-items: center;
+  border-radius: 0.5rem; 
+  padding: 0.5rem;
+}
+.search-bar input[type="search"] {
+    flex: 1; 
+    padding: 0.5rem; 
+    border-radius: 0.5rem;
+    border-color: antiquewhite;
+} 
+  .search-bar i {
+    margin-right: 0.5rem; 
+  }
